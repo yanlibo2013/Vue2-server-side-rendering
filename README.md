@@ -1,34 +1,30 @@
-> This is kind of experimental, you may also want to checkout the official example: https://github.com/vuejs/vue-hackernews-2.0
+# vue-ssr-starter-kit
 
-# vue-isomorphic-starter
+> A Vue.js project with vue 2.0, vue-router and vuex starter kit for server side rendering.
 
-Vue server-side rendering in real life. ~(≧▽≦)/~
-which uses Vue2, Vuex, Vue-router, Koa2 and Webpack 2
+[![Build Status](https://travis-ci.org/doabit/vue-ssr-starter-kit.svg?branch=master)](https://travis-ci.org/doabit/vue-ssr-starter-kit)
 
-## Features
+## Build Setup
 
-- Vue 2 + ES6 + Webpack
-- Koa 2 + ES6 + Webpack
-- Nodemon
-- **Hot Reloading**
-- Optimized for production use
+``` bash
+npm install
+npm run build
+npm start
+```
 
-## Get started
+## Devlopment Setup
 
 ```bash
-# clone this project
-$ cd my-project
-$ npm install
-
-# run dev server
-# http://localhost:5000
-$ npm run dev
-
-# build for production (both server and client)
-# dumped in ./build
-$ npm run build
+npm install
+npm run dev
 ```
+
+## Reference resources
+
+[vue-ssr-demo](https://github.com/yyx990803/vue-ssr-demo)
+
+[vue-hackernews-2.0](https://github.com/vuejs/vue-hackernews-2.0)
 
 ## License
 
-MIT &copy; [EGOIST](https://github.com/egoist)
+[MIT](http://opensource.org/licenses/MIT)
